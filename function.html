@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head> 
+    <title>ABOUT US</title>   
+</head>
+<body>
+    <header>
+        <nav>
+        </nav>
+    </header>
+    <main>
+    </main>     
+</body>
+ <footer>
+     <script>
+         var order = prompt("What do you want chocolate cheesecake or strawberry cheesecake?");
+         while(order !== "chocolate cheesecake" && order !== "strawberry cheesecake")
+         {
+             order = prompt("What do you want chocolate cheesecake or strawberry cheesecake?");
+         }
+         if (order == "chocolate cheesecake") 
+         {
+             itemOrder = '<img src="cho.jpg"/>';
+
+         } else if (order == "strawberry cheesecake")
+         {
+             itemOrder = '<img src="str.jpg"/>';
+         }
+
+         var numOfCheesecakes = prompt("How many pecies do you want?");
+
+         var result = '';
+         for(var i=0; i<numOfCheesecakes; i++) 
+         {
+             result = result + itemOrder;
+         }
+
+         document.write(result);
+
+         var yourfavouritecheesecake=prompt ('enter again your favourite cheesecake')
+         function printFavouriterecipe(recipe) 
+         {
+             alert('try-it '+ enter-again-your-favourite-cheesecake) 
+         }
+
+         printFavouriterecipe (yourfavouritecheesecake);
+
+     </script>
+</footer>
+</html>

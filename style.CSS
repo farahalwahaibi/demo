@@ -1,0 +1,52 @@
+body {
+    width: 960px;
+    line-height: ;
+    margin: auto;  to center the screen of web page 
+}
+
+body main .b {
+    width: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*this is the way to design the content of the header another way for float: ;*/
+}
+header nav ul li {
+    display: inline;
+}
+
+.featured-image {
+    width: 100%;
+}
+.a {
+    ;
+}
+.float-left {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+.float-right {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+.qoutes {
+    background-color: gray ;
+    /* #cccccc */
+    padding: 20px; /*to make spaces from left-right up-down*/
+    text-align: center;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    /* height: 50px; */
+    line-height: 50px;
+}
