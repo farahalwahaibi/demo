@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Musical-Instruments</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: black;
+            color: rgb(255, 255, 255);
+        
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <h1>Class 1 Lab</h1>
+        <p style="color:rgb(228, 24, 126);background-color: lightgray;">What's your name?</p>
+        <p style="color:rgb(59, 114, 231);background-color:darkgray">Do you like music?</p>
+        <p style="color: rgb(21, 204, 82);background-color: grey;">What's your favouurite instrument?</p>
+        <p style="color: rgb(210, 33, 233);background-color: black;">Do you have an idea about how to read musical
+            notes?</p>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        {
+
+            let name = prompt("What's your name?"); {
+                console.log(name);
+                alert('Hi ' + name);
+            }
+            let music = prompt("Do you like music?");
+            console.log(music);
+            if (music.toLowerCase() == "yes") {
+                alert('Great ' + name + ' !');
+            }
+            else {
+                alert('Why? you have to show our website to change your mind')
+            }
+
+
+            let instrument = prompt("What's your favouurite instrument?");
+            console.log(instrument);
+            if (instrument == "violin") {
+                alert('WoOoOw same as me, my favourite instrument is ' + instrument)
+            }
+            else {
+                alert('I like ' + instrument + ' but for me violin is my favourite')
+            }
+
+            let musicalNotes = prompt("Do you have an idea about how to read musical notes?");
+            console.log(musicalNotes);
+            if (musicalNotes.toLowerCase() == "yes") {
+                alert('you are genius')
+            }
+            else {
+                alert('Lets start learning it by our website')
+            }
+
+
+            if (music.toLowerCase() == "yes" && musicalNotes.toLowerCase() == "yes") {
+                alert('Hi ' + name + ' and great since ' + music + ' you like music . I like your favourite instrument ' + '(' + instrument + ')' + '. You look genius since ' + musicalNotes + ' you can read musical notes!');
+            }
+            else if (music == "no" && musicalNotes == "no") {
+                alert('Hi ' + name + ' and since your answer are ' + music + ' you do not like music, lets show our website hopefuly change your mind  . By the way I like your favourite instrument ' + '(' + instrument + ')' + '. Lets start learning how to read musical notes by our website since ' + '(' + musicalNotes + ')' + ' you have no idea about how to read it');
+            }
+            else if (music.toLowerCase() == "yes" && musicalNotes == "no") {
+                alert('Hi ' + name + ' and great since ' + music + ' you like music . I like your favourite instrument ' + '(' + instrument + ')' + '. Lets start learning how to read musical notes by our website since ' + '(' + musicalNotes + ')' + ' you have no idea about how to read it');
+            }
+            else if (music == "no" && musicalNotes == "yes") {
+                alert('Hi ' + name + ' and since your answer are ' + music + ' you do not like music, lets show our website hopefuly change your mind  . By the way I like your favourite instrument ' + '(' + instrument + ')' + '. You look genius since ' + '(' + musicalNotes + ')' + ' you can read musical notes!');
+            }
+
+        }
+
+
+
+
+    </script>
+
+</body>
+
+</html>
